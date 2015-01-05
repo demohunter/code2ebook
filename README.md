@@ -61,7 +61,7 @@ src2html.pl --color --cross-reference . 'Your Book Title'
 ```
 
 The resulting HTML site can be viewed in a web browser. And the entry
-point is `/path/to/my/src/tree/index.html`.
+point is `./index.html` (according to the command above).
 
 The following image shows what a typical HTML page looks like when rendered by a web browser:
 
@@ -121,11 +121,11 @@ featuring
 1. Summarized data types, macros, global variables, and functions defined in each
 source code file shown as TOC at the beginning of the
 corresponding HTML page.
-2. Colorful syntax highlighting via the `vim` program. (Enabled by the `--color` option).
+2. Colorful syntax highlighting via the `vim` program (enabled by the `--color` option).
 3. Cross-reference links to the definition lines of the referenced data types,
 macros, global variables, and functions across all the source code lines
 (similar to the [LXR Cross Referencer](http://sourceforge.net/projects/lxr/)
-but ours is much more lightweight).
+but ours is much more lightweight). This is enabled by the `--cross-reference` option (or the `-x` option for short).
 
 [Back to TOC](#table-of-contents)
 
